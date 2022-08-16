@@ -1,0 +1,45 @@
+ul{
+    list-style: none;
+}
+
+.aside{
+    width:270px;
+    background: #fdf9ff;
+    position: fixed;
+    border-right: 1px solid var(--bg-black-50);
+    left: 0;
+    top: 0;
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.aside .logo{
+    position: relative;
+    /* top: 50px; */
+    height: 150px;
+}
+
+.aside .nav{
+    margin-top: 50px;
+}
+
+.aside .nav li{
+    margin-bottom: 20px;
+    display: block;
+    
+}
+
+.aside .nav li a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 1px;
+    color: var(--text-black-900);
+    border-bottom: 1px solid var(--bg-black-50);
+    padding: 5px 15px;
+}
