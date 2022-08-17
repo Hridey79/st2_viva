@@ -3,7 +3,8 @@ ul{
 }
 
 .aside{
-    width:270px;
+    /* width:270px; */
+    width: 20%;
     background: #fdf9ff;
     position: fixed;
     border-right: 1px solid var(--bg-black-50);
